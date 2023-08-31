@@ -30,4 +30,7 @@ openFace.addEventListener("click", () => {
         closedFace.classList.add("active");
         openFace.classList.remove("active");
     }
+
+    // at this point the button is clicked, so if you want things to show up
+    // put them here
 })
