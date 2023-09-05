@@ -56,6 +56,9 @@ app.get("/books", async (request,response)=>{
         const books = await Book.find({}); // find all books
 
         return response.status(200).json({
+            // creates a json object with the following properties
+            // count: number of books
+            // data: books
             count: books.length,
             data: books
         });
