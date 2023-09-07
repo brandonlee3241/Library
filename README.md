@@ -16,5 +16,12 @@ Several steps need to be taken before application is up and running.
   <li>use npm install in frontend folder to install required frontend packages</li>
 </ol>
 <br/>
-Once database is communicating the other components, the application is ready to run. Use <br>```npm run dev``` in both front and backend folders, you'll find the application via ```http://localhost:5173/```
+Once database is communicating the other components, the application is ready to run. Use 
+```
+npm run dev
+``` 
+in both front and backend folders, you'll find the application via 
+```
+http://localhost:5173/
+```
 
