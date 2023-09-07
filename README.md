@@ -17,11 +17,11 @@ Several steps need to be taken before application is up and running.
 </ol>
 <br/>
 Once database is communicating the other components, the application is ready to run. Use 
-```
+
 npm run dev
-``` 
+
 in both front and backend folders, you'll find the application via 
-```
+
 http://localhost:5173/
-```
+
 
