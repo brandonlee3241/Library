@@ -7,4 +7,14 @@ connection stream in backend/config.js. Communication between database and backe
 User interface was created using React with elements from Tailwindcss for more responsive design and development. 
 <br/>
 Frontend serverhosting is done through Vite, which can be installed during the package updating process.
+# Getting Started
+Several steps need to be taken before application is up and running.
+<br/>
+<ol>
+  <li>Connect to the Library by creating a Nodejs MongoDB database and linking the connection stream in backend/config.js under mongoDBURL </li>
+  <li>use ``npm install`` in backend folder to install required packages</li>
+  <li>use ``npm install`` in frontend folder to install required frontend packages</li>
+</ol>
+<br/>
+Once database is communicating the other components, the application is ready to run. Use ``npm run dev`` in both front and backend folders, you'll find the application via ``http://localhost:5173/``
 
