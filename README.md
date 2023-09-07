@@ -1,3 +1,2 @@
 # MERN Stack Book Library Project
-The Book Library Project utilizes the MERN Stack (MongoDB, Express, React, Node.js) to implement a working library in a web browser.
-New line
+The Book Library Project utilizes the MERN Stack (MongoDB, Express, React, Node.js) to implement a working library in a web browser. Created using a tutorial by [freeCodeCamp.org](https://www.youtube.com/watch?v=-42K44A1oMA)
