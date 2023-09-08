@@ -8,10 +8,16 @@ import {useSnackbar} from 'notistack'
 
 
 const CreateBooks = () => {
+    
+    // first three lines are for the form
     const [title,setTitle] = useState("");
     const [author,setAuthor] = useState("");
     const [publishYear,setPublishYear] = useState("");
+
+    // for the spinner
     const [loading,setLoading] = useState(false);
+
+    // for the snackbar
     const navigate = useNavigate();
     const {enqueueSnackbar} = useSnackbar();
 
