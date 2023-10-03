@@ -1,0 +1,29 @@
+name: Deploy Backend to Azure
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name as needed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Azure CLI
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}  # Store your Azure credentials as a secret in your GitHub repository
+
+      - name: Deploy Backend to Azure
+        run: |
+          # Navigate to the backend directory
+          cd backend
+
+          # Deploy to Azure (replace 'APP_NAME' with your Azure App Service name)
+          az webapp up --name brandonlee3241Library
+        env:
+          APP_NAME: brandonlee3241Library  # Replace with your Azure App Service name
